@@ -3,4 +3,14 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
+@import "compass";
 @import "compass/reset";
+@import "compass/css3";
+
+html {
+    font-family: "adelle-sans",sans-serif;
+}
+
+h1.outline, .outline {
+  display: none;
+}

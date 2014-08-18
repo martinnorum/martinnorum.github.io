@@ -1,0 +1,10 @@
+.main-content {
+	@media (min-width: 769px) {
+		@include column-count(3);
+		@include column-gap(3em);
+		@include column-rule(1px solid #ccc);
+		// h3 {
+		// 	@include column-span(all);
+		// }
+	}
+}

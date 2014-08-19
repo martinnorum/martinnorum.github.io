@@ -1,0 +1,57 @@
+
+@include font-face("socicon", font-files("socicon-webfont.woff", "socicon-webfont.eot", "socicon-webfont.ttf", 'socicon-webfont.svg#sociconregular'), "socicon-webfont.eot");
+
+body {
+  font-size: 14px;
+  font-family: "adelle-sans", sans-serif;
+}
+
+article,
+section {
+  line-height: 1.5em;
+  letter-spacing: .05em;
+}
+
+
+
+a {
+  @include unstyled-link();
+  @include hover-link();
+  @include link-colors(black);
+}
+
+h1 {
+  font-size: 7em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+
+#info {
+  .centered {
+    text-align: center;
+  }
+
+  h2 {
+    font-weight: normal;
+    font-size: 120%;
+    letter-spacing: .15em;
+  }
+
+  .socicon {
+    @include clearfix();
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    font-family: 'socicon' !important;
+    font-size: 1.7em;
+    padding: .5em;
+//    margin-top: 3em;
+//    line-height: 1em;
+  }
+}
+

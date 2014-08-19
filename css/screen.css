@@ -63,9 +63,183 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+@font-face {
+  font-family: "socicon";
+  src: url('/fonts/socicon-webfont.eot?1383062366');
+  src: url('/fonts/socicon-webfont.eot?&1383062366#iefix') format('embedded-opentype'), url('/fonts/socicon-webfont.woff?1383062366') format('woff'), url('/fonts/socicon-webfont.eot?1383062366') format('embedded-opentype'), url('/fonts/socicon-webfont.ttf?1383062366') format('truetype'), url('/fonts/socicon-webfont.svg?1383062366#sociconregular') format('svg');
+}
+/* line 4, ../sass/partials/_typography.scss */
+body {
+  font-size: 14px;
+  font-family: "adelle-sans", sans-serif;
+}
+
+/* line 9, ../sass/partials/_typography.scss */
+article,
+section {
+  line-height: 1.5em;
+  letter-spacing: .05em;
+}
+
+/* line 17, ../sass/partials/_typography.scss */
+a {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+  text-decoration: none;
+  color: black;
+}
+/* line 6, ../../../../../../../usr/local/rvm/gems/ruby-2.1.2/gems/compass-core-1.0.0/stylesheets/compass/typography/links/_unstyled-link.scss */
+a:active, a:focus {
+  outline: none;
+}
+/* line 4, ../../../../../../../usr/local/rvm/gems/ruby-2.1.2/gems/compass-core-1.0.0/stylesheets/compass/typography/links/_hover-link.scss */
+a:hover, a:focus {
+  text-decoration: underline;
+}
+
+/* line 23, ../sass/partials/_typography.scss */
+h1 {
+  font-size: 7em;
+  font-weight: bold;
+}
+
+/* line 28, ../sass/partials/_typography.scss */
+h2 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+/* line 35, ../sass/partials/_typography.scss */
+#info .centered {
+  text-align: center;
+}
+/* line 39, ../sass/partials/_typography.scss */
+#info h2 {
+  font-weight: normal;
+  font-size: 120%;
+  letter-spacing: .15em;
+}
+/* line 45, ../sass/partials/_typography.scss */
+#info .socicon {
+  overflow: hidden;
+  *zoom: 1;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  font-family: 'socicon' !important;
+  font-size: 1.7em;
+  padding: .5em;
+}
+
+/* line 2, ../sass/partials/_layout.scss */
+#info section {
+  overflow: hidden;
+  *zoom: 1;
+  border: none;
+  padding: 1.3em 0 1.3em 0;
+}
+/* line 8, ../sass/partials/_layout.scss */
+#info .bottom-border {
+  border-bottom-style: dotted;
+  border-bottom-width: .1em;
+}
+/* line 13, ../sass/partials/_layout.scss */
+#info .general-information {
+  padding: 1.5em 2em 1.5em 2em;
+}
+/* line 16, ../sass/partials/_layout.scss */
+#info .general-information p {
+  margin-top: .4em;
+}
+/* line 21, ../sass/partials/_layout.scss */
+#info ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+  display: block;
+  margin: 0 auto;
+  width: 20em;
+  text-align: center;
+  vertical-align: middle;
+}
+/* line 62, ../../../../../../../usr/local/rvm/gems/ruby-2.1.2/gems/compass-core-1.0.0/stylesheets/compass/typography/lists/_horizontal-list.scss */
+#info ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  float: left;
+  padding-left: 0.9em;
+  padding-right: 0.9em;
+}
+/* line 49, ../../../../../../../usr/local/rvm/gems/ruby-2.1.2/gems/compass-core-1.0.0/stylesheets/compass/typography/lists/_horizontal-list.scss */
+#info ul li:first-child {
+  padding-left: 0;
+}
+/* line 50, ../../../../../../../usr/local/rvm/gems/ruby-2.1.2/gems/compass-core-1.0.0/stylesheets/compass/typography/lists/_horizontal-list.scss */
+#info ul li:last-child {
+  padding-right: 0;
+}
+/* line 52, ../../../../../../../usr/local/rvm/gems/ruby-2.1.2/gems/compass-core-1.0.0/stylesheets/compass/typography/lists/_horizontal-list.scss */
+#info ul li.last {
+  padding-right: 0;
+}
+/* line 29, ../sass/partials/_layout.scss */
+#info ul a {
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 37, ../sass/partials/_layout.scss */
+.general-content h2 {
+  margin: 1em 0 .5em 0;
+  border-top-style: solid;
+  border-top-width: .4em;
+  padding-top: .3em;
+  font-size: 280%;
+  line-height: 80%;
+}
+/* line 47, ../sass/partials/_layout.scss */
+.general-content h3 {
+  margin: 2em 0 .3em 0;
+  padding-top: 2em;
+  border-top-style: dotted;
+  border-top-width: .1em;
+}
+/* line 56, ../sass/partials/_layout.scss */
+.general-content table {
+  width: 100%;
+}
+/* line 58, ../sass/partials/_layout.scss */
+.general-content table td {
+  padding: .2em .8em .2em .8em;
+  text-align: right;
+}
+/* line 62, ../sass/partials/_layout.scss */
+.general-content table td:first-child {
+  text-align: left;
+}
+/* line 65, ../sass/partials/_layout.scss */
+.general-content table tr {
+  border-top-style: dotted;
+  border-top-width: .1em;
+}
+/* line 69, ../sass/partials/_layout.scss */
+.general-content table tr:first-child {
+  border-top-style: none;
+}
+/* line 74, ../sass/partials/_layout.scss */
+.general-content .keywords {
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+
 @media (min-width: 769px) {
-  /* line 1, ../sass/partials/_layout.scss */
-  .main-content {
+  /* line 80, ../sass/partials/_layout.scss */
+  body {
     -moz-column-count: 3;
     -webkit-column-count: 3;
     column-count: 3;
@@ -78,60 +252,43 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 }
 
-/* line 9, ../sass/screen.scss */
+/* line 12, ../sass/screen.scss */
 body {
-  font-size: 100%;
-  font-family: "adelle-sans", sans-serif;
   margin: .3em;
-  line-height: 1.5em;
+  padding: 1em;
 }
 
-/* line 15, ../sass/screen.scss */
+/* line 17, ../sass/screen.scss */
 h1.outline, .outline {
   display: none;
 }
 
-/* line 18, ../sass/screen.scss */
+/* line 21, ../sass/screen.scss */
 h1 {
-  font-size: 7em;
-  font-weight: bold;
-  margin-bottom: .3em;
-  padding-bottom: .3em;
   border-bottom-style: solid;
-  border-bottom-width: .1em;
+  border-bottom-width: .18em;
 }
 
-/* line 27, ../sass/screen.scss */
-h2 {
-  font-size: 2em;
-  font-weight: bold;
-}
-
-/* line 31, ../sass/screen.scss */
+/* line 26, ../sass/screen.scss */
 h3 {
   font-size: 1.2em;
   font-weight: bold;
 }
 
-/* line 39, ../sass/screen.scss */
+/* line 31, ../sass/screen.scss */
 hr {
   margin-top: .1em;
   margin-bottom: .1em;
 }
 
-/* line 43, ../sass/screen.scss */
+/* line 36, ../sass/screen.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 46, ../sass/screen.scss */
+/* line 40, ../sass/screen.scss */
 .main-content section {
   border-top-style: solid;
   border-width: .5em;
-  margin-top: 2em;
-}
-
-/* line 51, ../sass/screen.scss */
-article {
   margin-top: 2em;
 }

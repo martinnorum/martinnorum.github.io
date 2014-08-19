@@ -1,10 +1,86 @@
-.main-content {
-	@media (min-width: 769px) {
-		@include column-count(3);
-		@include column-gap(3em);
-		@include column-rule(1px solid #ccc);
-		// h3 {
-		// 	@include column-span(all);
-		// }
-	}
+#info {
+  section {
+    @include clearfix();
+    border: none;
+    padding: 1.3em 0 1.3em 0;
+  }
+
+  .bottom-border {
+    border-bottom-style: dotted;
+    border-bottom-width: .1em;
+  }
+
+  .general-information {
+    padding: 1.5em 2em 1.5em 2em;
+
+    p {
+      margin-top: .4em;
+    }
+  }
+
+  ul {
+    @include horizontal-list(.9em);
+    display: block;
+    margin: 0 auto;
+    width: 20em;
+    text-align: center;
+    vertical-align: middle;
+
+    a {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}
+
+.general-content {
+  h2 {
+    margin: 1em 0 .5em 0;
+    border-top-style: solid;
+    border-top-width: .4em;
+    padding-top: .3em;
+    font-size: 280%;
+    line-height: 80%;
+  }
+
+
+  h3 {
+
+    margin: 2em 0 .3em 0;
+    padding-top: 2em;
+    border-top-style: dotted;
+    border-top-width: .1em;
+  }
+
+
+  table {
+    width: 100%;
+    td {
+      padding: .2em .8em .2em .8em;
+      text-align: right;
+    }
+    td:first-child {
+      text-align: left;
+    }
+    tr {
+      border-top-style: dotted;
+      border-top-width: .1em;
+    }
+    tr:first-child {
+      border-top-style: none;
+    }
+  }
+
+  .keywords {
+    margin-top: .5em;
+    margin-bottom: .5em;
+  }
+}
+
+body {
+  @media (min-width: 769px) {
+    @include column-count(3);
+    @include column-gap(3em);
+    @include column-rule(1px solid #ccc);
+  }
 }

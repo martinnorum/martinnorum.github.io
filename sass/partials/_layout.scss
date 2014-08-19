@@ -82,5 +82,7 @@ body {
     @include column-count(3);
     @include column-gap(3em);
     @include column-rule(1px solid #ccc);
+
+    
   }
 }

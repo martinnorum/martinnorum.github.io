@@ -246,9 +246,9 @@ h2 {
     -moz-column-gap: 3em;
     -webkit-column-gap: 3em;
     column-gap: 3em;
-    -moz-column-rule: 1px solid #cccccc;
-    -webkit-column-rule: 1px solid #cccccc;
-    column-rule: 1px solid #cccccc;
+    -moz-column-rule: 1px solid #ccc;
+    -webkit-column-rule: 1px solid #ccc;
+    column-rule: 1px solid #ccc;
   }
 }
 

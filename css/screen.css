@@ -139,20 +139,20 @@ h2 {
   border: none;
   padding: 1.3em 0 1.3em 0;
 }
-/* line 8, ../sass/partials/_layout.scss */
+/* line 7, ../sass/partials/_layout.scss */
 #info .bottom-border {
   border-bottom-style: dotted;
   border-bottom-width: .1em;
 }
-/* line 13, ../sass/partials/_layout.scss */
+/* line 11, ../sass/partials/_layout.scss */
 #info .general-information {
   padding: 1.5em 2em 1.5em 2em;
 }
-/* line 16, ../sass/partials/_layout.scss */
+/* line 13, ../sass/partials/_layout.scss */
 #info .general-information p {
   margin-top: .4em;
 }
-/* line 21, ../sass/partials/_layout.scss */
+/* line 17, ../sass/partials/_layout.scss */
 #info ul {
   margin: 0;
   padding: 0;
@@ -187,13 +187,13 @@ h2 {
 #info ul li.last {
   padding-right: 0;
 }
-/* line 29, ../sass/partials/_layout.scss */
+/* line 24, ../sass/partials/_layout.scss */
 #info ul a {
   display: block;
   margin: 0 auto;
 }
 
-/* line 37, ../sass/partials/_layout.scss */
+/* line 31, ../sass/partials/_layout.scss */
 .general-content h2 {
   margin: 1em 0 .5em 0;
   border-top-style: solid;
@@ -202,44 +202,44 @@ h2 {
   font-size: 280%;
   line-height: 80%;
 }
-/* line 47, ../sass/partials/_layout.scss */
+/* line 39, ../sass/partials/_layout.scss */
 .general-content h3 {
   margin: 2em 0 .3em 0;
   padding-top: 2em;
   border-top-style: dotted;
   border-top-width: .1em;
 }
-/* line 56, ../sass/partials/_layout.scss */
+/* line 45, ../sass/partials/_layout.scss */
 .general-content table {
   width: 100%;
 }
-/* line 58, ../sass/partials/_layout.scss */
+/* line 47, ../sass/partials/_layout.scss */
 .general-content table td {
   padding: .2em .8em .2em .8em;
   text-align: right;
 }
-/* line 62, ../sass/partials/_layout.scss */
+/* line 51, ../sass/partials/_layout.scss */
 .general-content table td:first-child {
   text-align: left;
 }
-/* line 65, ../sass/partials/_layout.scss */
+/* line 54, ../sass/partials/_layout.scss */
 .general-content table tr {
   border-top-style: dotted;
   border-top-width: .1em;
 }
-/* line 69, ../sass/partials/_layout.scss */
+/* line 58, ../sass/partials/_layout.scss */
 .general-content table tr:first-child {
   border-top-style: none;
 }
-/* line 74, ../sass/partials/_layout.scss */
+/* line 62, ../sass/partials/_layout.scss */
 .general-content .keywords {
   margin-top: .5em;
   margin-bottom: .5em;
 }
 
 @media (min-width: 769px) {
-  /* line 80, ../sass/partials/_layout.scss */
-  body {
+  /* line 68, ../sass/partials/_layout.scss */
+  .content-container {
     -moz-column-count: 3;
     -webkit-column-count: 3;
     column-count: 3;
@@ -249,9 +249,10 @@ h2 {
     -moz-column-rule: 1px solid #ccc;
     -webkit-column-rule: 1px solid #ccc;
     column-rule: 1px solid #ccc;
+    width: 700px;
+    margin: 0 auto;
   }
 }
-
 /* line 12, ../sass/screen.scss */
 body {
   margin: .3em;

@@ -237,20 +237,67 @@ h2 {
   margin-bottom: .5em;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 568px) {
   /* line 68, ../sass/partials/_layout.scss */
   .content-container {
-    -moz-column-count: 3;
-    -webkit-column-count: 3;
-    column-count: 3;
+    width: 518px;
+    margin: 0 auto;
+  }
+
+  /* line 73, ../sass/partials/_layout.scss */
+  #info {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
     -moz-column-gap: 3em;
     -webkit-column-gap: 3em;
     column-gap: 3em;
-    -moz-column-rule: 1px solid #ccc;
-    -webkit-column-rule: 1px solid #ccc;
-    column-rule: 1px solid #ccc;
-    width: 700px;
-    margin: 0 auto;
+    -moz-column-rule: 1px dotted #cccccc;
+    -webkit-column-rule: 1px dotted #cccccc;
+    column-rule: 1px dotted #cccccc;
+    margin-top: 1em;
+  }
+  /* line 80, ../sass/partials/_layout.scss */
+  #info .bottom-border:nth-child(3) {
+    border-style: none;
+  }
+  /* line 84, ../sass/partials/_layout.scss */
+  #info ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    *zoom: 1;
+    width: 100%;
+  }
+  /* line 62, ../../../../../../../usr/local/rvm/gems/ruby-2.1.2/gems/compass-core-1.0.0/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  #info ul li {
+    list-style-image: none;
+    list-style-type: none;
+    margin-left: 0;
+    white-space: nowrap;
+    float: left;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+  /* line 49, ../../../../../../../usr/local/rvm/gems/ruby-2.1.2/gems/compass-core-1.0.0/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  #info ul li:first-child {
+    padding-left: 0;
+  }
+  /* line 50, ../../../../../../../usr/local/rvm/gems/ruby-2.1.2/gems/compass-core-1.0.0/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  #info ul li:last-child {
+    padding-right: 0;
+  }
+  /* line 52, ../../../../../../../usr/local/rvm/gems/ruby-2.1.2/gems/compass-core-1.0.0/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  #info ul li.last {
+    padding-right: 0;
+  }
+
+  /* line 91, ../sass/partials/_layout.scss */
+  #projects .project-information {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
   }
 }
 /* line 12, ../sass/screen.scss */

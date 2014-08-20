@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfebe47f-619d-4aa9-a1d7-51043c5f95b5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/partials/_media1024.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/partials/_media568.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/partials/_layout.scss" afterPath="$PROJECT_DIR$/sass/partials/_layout.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/screen.css" afterPath="$PROJECT_DIR$/css/screen.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/screen.scss" afterPath="$PROJECT_DIR$/sass/screen.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="martinnorum.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,8 +36,28 @@
           <file leaf-file-name="screen.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sass/screen.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-22.4" vertical-offset="0" max-vertical-offset="800">
-                  <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+                <state vertical-scroll-proportion="-11.52" vertical-offset="0" max-vertical-offset="832">
+                  <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_media568.scss" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/sass/partials/_media568.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.40156862" vertical-offset="0" max-vertical-offset="1275">
+                  <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_media1024.scss" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/sass/partials/_media1024.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-8.76" vertical-offset="117" max-vertical-offset="1456">
+                  <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="35" />
                   <folding />
                 </state>
               </provider>
@@ -42,21 +66,21 @@
           <file leaf-file-name="_layout.scss" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sass/partials/_layout.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-45.88" vertical-offset="293" max-vertical-offset="1600">
-                  <caret line="90" column="5" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="24" />
+                <state vertical-scroll-proportion="-47.36" vertical-offset="0" max-vertical-offset="1280">
+                  <caret line="74" column="1" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.60697305" vertical-offset="1298" max-vertical-offset="3328">
-                  <caret line="129" column="4" selection-start-line="129" selection-start-column="4" selection-end-line="129" selection-end-column="4" />
+                <state vertical-scroll-proportion="-14.32" vertical-offset="362" max-vertical-offset="3264">
+                  <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
                   <folding>
-                    <marker date="1408524760000" expanded="true" signature="1053:1210" placeholder="..." />
-                    <marker date="1408524760000" expanded="true" signature="1146:1178" placeholder="..." />
+                    <marker date="1408535639000" expanded="true" signature="1053:1210" placeholder="..." />
+                    <marker date="1408535639000" expanded="true" signature="1146:1178" placeholder="..." />
                   </folding>
                 </state>
               </provider>
@@ -91,10 +115,12 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/sass/screen.scss" />
         <option value="$PROJECT_DIR$/sass/partials/_typography.scss" />
         <option value="$PROJECT_DIR$/sass/partials/_layout.scss" />
+        <option value="$PROJECT_DIR$/sass/partials/_media1024.scss" />
+        <option value="$PROJECT_DIR$/sass/screen.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/sass/partials/_media568.scss" />
       </list>
     </option>
   </component>
@@ -107,9 +133,9 @@
     <initial>false</initial>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1278" />
+    <option name="x" value="863" />
     <option name="y" value="22" />
-    <option name="width" value="1278" />
+    <option name="width" value="1693" />
     <option name="height" value="1418" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -443,7 +469,7 @@
     <option name="SHOW_TOOLBAR" value="true" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1278" y="22" width="1278" height="1418" extended-state="0" />
+    <frame x="863" y="22" width="1693" height="1418" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -458,7 +484,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18770227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" x="909" y="66" width="309" height="1326" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19093852" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19079345" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -523,8 +549,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="688" max-vertical-offset="2832">
           <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
           <folding>
-            <marker date="1408524760000" expanded="true" signature="1053:1210" placeholder="..." />
-            <marker date="1408524760000" expanded="true" signature="1146:1178" placeholder="..." />
+            <marker date="1408535639000" expanded="true" signature="1053:1210" placeholder="..." />
+            <marker date="1408535639000" expanded="true" signature="1146:1178" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -574,8 +600,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2608">
           <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
           <folding>
-            <marker date="1408524760000" expanded="true" signature="1053:1210" placeholder="..." />
-            <marker date="1408524760000" expanded="true" signature="1146:1178" placeholder="..." />
+            <marker date="1408535639000" expanded="true" signature="1053:1210" placeholder="..." />
+            <marker date="1408535639000" expanded="true" signature="1146:1178" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -596,14 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/screen.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.4" vertical-offset="0" max-vertical-offset="800">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/partials/_typography.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24088748" vertical-offset="0" max-vertical-offset="1262">
@@ -612,22 +630,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sass/screen.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.52" vertical-offset="0" max-vertical-offset="832">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sass/partials/_layout.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-45.88" vertical-offset="293" max-vertical-offset="1600">
-          <caret line="90" column="5" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="24" />
+        <state vertical-scroll-proportion="-47.36" vertical-offset="0" max-vertical-offset="1280">
+          <caret line="74" column="1" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/partials/_media1024.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.76" vertical-offset="117" max-vertical-offset="1456">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60697305" vertical-offset="1298" max-vertical-offset="3328">
-          <caret line="129" column="4" selection-start-line="129" selection-start-column="4" selection-end-line="129" selection-end-column="4" />
+        <state vertical-scroll-proportion="-14.32" vertical-offset="362" max-vertical-offset="3264">
+          <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
           <folding>
-            <marker date="1408524760000" expanded="true" signature="1053:1210" placeholder="..." />
-            <marker date="1408524760000" expanded="true" signature="1146:1178" placeholder="..." />
+            <marker date="1408535639000" expanded="true" signature="1053:1210" placeholder="..." />
+            <marker date="1408535639000" expanded="true" signature="1146:1178" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/partials/_media568.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40156862" vertical-offset="0" max-vertical-offset="1275">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,86 @@
+@media (min-width: 1024px) {
+  .content-container {
+    width: 960px;
+    margin: 0 auto;
+  }
+
+  #info {
+    @include column-count(3);
+    @include column-gap(3em);
+    @include column-rule(1px dotted #ccc);
+
+    margin-top: 1em;
+
+    .personal {
+      p {
+        margin-bottom: 1.2em;
+        text-align: justify;
+        font-style: italic;
+      }
+    }
+    .information {
+      @include break-after(always);
+      padding-top: 0;
+
+      section {
+        padding-top: 0;
+        margin-top: 0;
+
+        h2 {
+          padding-top: .3em;
+        }
+
+      }
+    }
+
+    ul {
+      width: 10em;
+      margin: 0 auto;
+
+      li {
+        float: left;
+        padding: 0;
+        margin: .5em;
+      }
+    }
+
+    .bottom-border {
+      border-style: none;
+    }
+  }
+
+  #projects {
+
+    h2 {
+      margin-bottom: 1em;
+      padding-top: 1em;
+    }
+
+    h3.top-item {
+      margin-top: 0;
+      padding-top: 0;
+    }
+
+    .project-information {
+      @include column-count(2);
+      margin-bottom: 2em;
+    }
+  }
+
+  .secondary-content {
+    @include column-count(2);
+    margin-top: 3em;
+
+    section {
+      margin-bottom: 2em;
+    }
+    section:first-child {
+      @include break-after(always);
+    }
+
+    h2 {
+      margin-top: 0;
+    }
+  }
+
+}

@@ -1,0 +1,54 @@
+@media (min-width: 568px) {
+  .content-container {
+    width: 518px;
+    margin: 0 auto;
+  }
+
+  #info {
+    @include column-count(2);
+    @include column-gap(3em);
+    @include column-rule(1px dotted #ccc);
+
+    margin-top: 1em;
+
+    ul {
+      @include horizontal-list(.2em);
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    .bottom-border {
+      border-style: none;
+    }
+
+    h2 {
+      width: 95%;
+      margin: 0 auto;
+      font-size: 90%;
+      margin-bottom: 1.5em;
+    }
+
+    .address {
+      padding-top: 1.00em;
+      padding-bottom: 0;
+      @include break-after(always);
+    }
+
+    .personal {
+      width: 85%;
+      margin: 0 auto;
+
+      text-align: justify;
+      padding-left: 1em;
+      padding-top: 1em;
+      margin-bottom: .9em;
+
+    }
+  }
+
+  #projects {
+    .project-information {
+      @include column-count(2);
+    }
+  }
+}
